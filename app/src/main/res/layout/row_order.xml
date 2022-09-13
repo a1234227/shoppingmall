@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_row"
+    android:layout_width="match_parent"
+    android:layout_height="400px"
+    android:background="@color/product_bg">
+
+    <TextView
+        android:id="@+id/text_order_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="品名:香水檸檬"
+        android:textColor="@color/row_home_text"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/imageview_order"
+        app:layout_constraintStart_toEndOf="@+id/checkBox"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_order_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="ID:10"
+        android:textColor="@color/string"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/imageview_order"
+        app:layout_constraintStart_toEndOf="@+id/checkBox"
+        app:layout_constraintTop_toBottomOf="@+id/text_order_name" />
+
+    <ImageView
+        android:id="@+id/imageview_order"
+        android:layout_width="196dp"
+        android:layout_height="132dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fakefruit_h" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.083" />
+
+    <TextView
+        android:id="@+id/text_order_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="1"
+        android:textColor="@color/string"
+        app:layout_constraintEnd_toStartOf="@+id/imageview_order"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_order_price" />
+
+    <Button
+        android:id="@+id/button_order_decreace"
+        android:layout_width="67dp"
+        android:layout_height="38dp"
+        android:text="-"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/text_order_amount"
+        app:layout_constraintEnd_toStartOf="@+id/text_order_amount"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/text_order_amount" />
+
+    <Button
+        android:id="@+id/button_order_increace"
+        android:layout_width="67dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="12dp"
+        android:text="+"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/text_order_amount"
+        app:layout_constraintEnd_toStartOf="@+id/imageview_order"
+        app:layout_constraintStart_toEndOf="@+id/text_order_amount"
+        app:layout_constraintTop_toTopOf="@+id/text_order_amount" />
+
+</android.support.constraint.ConstraintLayout>

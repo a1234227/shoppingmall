@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/android-file/shoppingmall/app/src/main/res/layout/activity_register.xml" value="0.33" />
+        <entry key="..\:/android-file/shoppingmall/app/src/main/res/layout/activity_settings.xml" value="0.22" />
+        <entry key="..\:/android-file/shoppingmall/app/src/main/res/layout/row_home.xml" value="0.5" />
+        <entry key="..\:/android-file/shoppingmall/app/src/main/res/layout/row_order.xml" value="0.5" />
+        <entry key="..\:/android-file/shoppingmall/app/src/main/res/layout/row_order_confirm.xml" value="0.5" />
+        <entry key="..\:/android-file/shoppingmall/app/src/main/res/layout/row_order_list.xml" value="0.5" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
